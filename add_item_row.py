@@ -1,7 +1,10 @@
 #This script takes an export list from XWAYS in HTML and adds row lines
+#It will search to find other files if XWAYS breaks the files into
+#chunks, add lines to additional files and update the links at the bottom of the page.
 __author__ = 'Matthew Loschmann'
 #email: matt.loschmann@gmail.com
 #Tested on XWAYS 19.6 Preview 5
+#Python 2.7
 
 import sys
 import os
